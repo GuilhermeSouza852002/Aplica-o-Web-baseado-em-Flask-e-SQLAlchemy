@@ -16,7 +16,7 @@ def list_personagens():
 
 
 @personagem_blueprint.route("/new", methods=["GET", "POST"])
-def new_character():
+def new_personagem():
     form = PersonagemForm()
 
     if form.validate_on_submit():
