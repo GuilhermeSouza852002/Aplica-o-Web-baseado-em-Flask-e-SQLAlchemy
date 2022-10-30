@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Personagens</title>
+</head>
+<body>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <td>ID</td>
+        <td>Classe</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% for personagem in personagens %}
+        <tr>
+          <td>{{ personagem.id }}</td>
+          <td>{{ personagem.classe }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+
+
+  </table>
+
+</body>
+</html>
