@@ -3,5 +3,5 @@ Com base no exemplo desenvolvido em sala de aula, selecione uma tabela do projet
 
  <h1 align="center">Diagrama de Classe</h1>
    <div align="center">
-     <img src="DiagramaClasse.png" width="700px"/>
+     <img src="Diagrama de classe RPG.jpg" width="700px"/>
    </div>
